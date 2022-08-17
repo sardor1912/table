@@ -1,0 +1,42 @@
+html {
+  width: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "sans";
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+table {
+  max-width: 1200px;
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 1px solid #000;
+}
+table th, table td {
+  width: 300px;
+  height: 40px;
+}
+table th, table td:first-child {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+table td:last-child {
+  ruby-span: 3;
+}
+table__total {
+  ruby-span: 3;
+}/*# sourceMappingURL=main.css.map */

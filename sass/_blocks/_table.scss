@@ -1,0 +1,29 @@
+table{
+  max-width: 1200px;
+  border-collapse: collapse;
+
+  th ,td{
+    border: 1px solid #000;
+  }
+
+  th,td{
+    width: 300px;
+    height: 40px;
+  }
+
+  th,td:first-child{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  td:last-child{
+    ruby-span: 3;
+  }
+
+  &__total{
+    ruby-span: 3;
+  }
+}
+
+
